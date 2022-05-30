@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href=".\css\style.css">
+    <title>Piguz's Tienda</title>
+</head>
+
+<body>
+    <header class="header container">
+        <p class="header__logo">PiguzLOGO</p>
+        <input type="checkbox" id="boton_menu">
+        <label for="boton_menu">
+            <img src=".\assets\menu_icon.svg" class="menu_icon" alt="icono de menú">
+        </label>
+        <nav class="header__nav">
+
+            <a href="./index.html" class="nav__items">Home</a>
+            <a href="./pages/shops.html" class="nav__items">Shop</a>
+            <a href="./pages/about.html" class="nav__items">About</a>
+            <a href="./pages/contact.html" class="nav__items">Contact</a>
+        </nav>
+    </header>       
+    <main>
+        <section class="hero container">
+            <div class="hero__container">
+                <div class="hero__textos">
+                    <h1 class="hero__titulo">Estar más allá de la moda</h1>
+                    <p class="hero__subtitulo">No vendemos estilo. De la creación te encargas tú.</p>
+                    <a href="./shop.html" class="hero__shop--a">Shop Now</a>
+                </div>
+                <video controls autoplay>
+                    <source src="./video/Piguz.mp4" class="hero__video" type="video/mp4">
+                </video>
+            </div>
+        </section>
+        <section class="sellers container">
+            <div class="sellers__texts">
+                <h2 class="sellers__titulo">Nuestros productos más vendidos</h2>
+                <p class="sellers__descripcioon">Te tenemos recomendaciones escogidas por nuestros clientes.</h2>
+            </div>
+            <div class="sellers__img">
+                <img src="./img/bolso1.jpg" alt="" class="sellers__img1">
+                <img src="./img/bolso_zapato.jpg" alt="zapatobolso" class="sellers__img2">
+                <img src="./img/chanel.jpg" alt="perfume" class="sellers__img3">
+            </div>
+        </section>
+        <section class="shops container">
+            <div class="shops__woman">
+                <h2 class="shops__woman--titulo">Shop Woman</h2>
+                <a href="./pages/woman.html"><img src="./img/woman_buy.jpg" alt="mujer" class="shops__woman--img"></a>
+            </div>
+            <div class="shops__man">
+                <h2 class="shops__man--titulo">Shop Man</h2>
+                <a href="./pages/man.html"><img src="./img/men_buy.jpg" alt="hombre" class="shops__man--img"></a>
+            </div>
+
+
+
+        </section>
+        <section class="newsletter container">
+            <img src="./img/newsletter.jpg" class="newsletter__img" alt="closet">
+            <div class="newsletter__texts">
+                <h2 class="newsletter__titulo">Regístrate para obtener acceso temprano a nuevos estilos y descuentos.
+                </h2>
+                <label for="email">Ingresa tu dirección de email</label>
+                <input type="email" id="email" required>
+                <input type="button" value="Suscribirse">
+
+
+
+        </section>
+    </main>
+</body>
+<hr>
+<footer class="footer">
+    <div class="footer__nosotros">
+        <h3>Nosotros</h3>
+        <ul>
+            <li>¿Quiénes somos?</li>
+            <li>Contáctanos</li>
+            <li>Promociona nuestros productos</li>
+        </ul>
+    </div>
+    <div class="footer__ayuda">
+        <h3>Ayuda</h3>
+        <ul>
+            <li>¿Cómo comprar?</li>
+            <li>Envío y devoluciones</li>
+            <li>Política de garantías</li>
+        </ul>
+    </div>
+    <div class="footer__informacion">
+        <h3>Información</h3>
+        <ul>
+            <li>FAQ</li>
+        </ul>
+    </div>
+
+</footer>
+
+</html>
