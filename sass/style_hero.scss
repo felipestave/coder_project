@@ -1,0 +1,34 @@
+.hero{
+    &__titulo{
+        width: 100%;
+        margin-top: 50px;
+        font-weight:400px;
+        font-size: 40px;
+        grid-area: titulo; 
+    }
+    &__subtitulo{
+        width: 100%;
+        font-size: 20px;
+        font-weight: 100;
+        grid-area: subtitulo;
+    }
+    &__shop--a{
+        padding: 10px;
+        display: inline-block;
+        margin-top: 50px;
+        margin-bottom: 0px;
+        width: 100%;
+        height: 15%;
+        text-decoration: none;
+        color:#ffffff;
+        background-color: black;
+        text-align: center;
+    }
+    &__container{
+        margin-top: 20vh;
+        display:grid;
+        grid-template-columns: 30% 40%;
+        grid-template-rows: 70% 30%;
+        column-gap: 10%;  
+    }
+}

@@ -1,0 +1,26 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+    label:hover{
+        cursor: pointer;
+        background-color: rgba(0, 0, 0, 0.1);
+    }
+    .nav__items{
+        text-decoration: none;
+        color:black;
+        padding: 10px 39px;
+        align-items: center;
+    }
+        & &__nav{
+    margin:auto;
+    display:flex;
+    transition-property: border-radius, background-color;
+    transition-duration: 1s;
+    a:hover{
+    border-radius: 5%;
+    background-color: rgba(23, 32, 32, 0.158);
+    }
+    
+}
+}
